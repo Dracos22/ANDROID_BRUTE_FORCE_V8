@@ -33,3 +33,29 @@ sudo apt install python3 python3-pip -y
 
 # Instalar PyQt5
 pip3 install PyQt5
+
+
+
+
+python Android_bruteforceV8.py --help
+
+  ▄▖   ▌    ▘ ▌  ▄     ▗     ▄▖        
+  ▌▌▛▌▛▌▛▘▛▌▌▛▌▄▖▙▘▛▘▌▌▜▘█▌▄▖▙▖▛▌▛▘▛▘█▌
+  ▛▌▌▌▙▌▌ ▙▌▌▙▌  ▙▘▌ ▙▌▐▖▙▖  ▌ ▙▌▌ ▙▖▙▖
+        Android Brute Force Tool - V5
+
+usage: Android_bruteforceV8.py [-h] [-i I] [-w W] [--pin4] [--pin6] [--pin8] [-V] [--sleep SLEEP] [--gui]
+
+Android ADB PIN Brute Forcer
+
+options:
+  -h, --help     show this help message and exit
+  -i I           ID del dispositivo ADB
+  -w W           Ruta del archivo wordlist
+  --pin4         PINs de 4 dígitos
+  --pin6         PINs de 6 dígitos
+  --pin8         PINs de 8 dígitos
+  -V, --verbose  Verbose
+  --sleep SLEEP  Tiempo de espera en milisegundos entre lotes
+  --gui          Lanzar modo gráfico
+
