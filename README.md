@@ -23,21 +23,43 @@ Está dirigida a pentesters, investigadores en ciberseguridad y analistas forens
 ☑️ Comprobación de dependencias al iniciar (ADB, scrcpy, etc.)
 
 # Actualizar el sistema
+```
 sudo apt update && sudo apt upgrade -y
+```
 
 # Instalar ADB y scrcpy
+
+```
 sudo apt install adb scrcpy -y
+```
 
 # Instalar Python y pip si no están
+```
 sudo apt install python3 python3-pip -y
+```
 
 # Instalar PyQt5
+```
 pip3 install PyQt5
+```
+
+# CAPTURA
+<p>
+	Este programa incluye el modo >> python Android_bruteforceV8.py --gui un modo grafico.
+</p>
 
 
+<br>
+<img  align="center" src="Captura de pantalla_2025-04-14_03-41-51.png" alt="">
 
 
-python Android_bruteforceV8.py --help
+# DEMO
+
+```
+ python Android_bruteforceV8.py --help 
+```
+
+```
 
   ▄▖   ▌    ▘ ▌  ▄     ▗     ▄▖        
   ▌▌▛▌▛▌▛▘▛▌▌▛▌▄▖▙▘▛▘▌▌▜▘█▌▄▖▙▖▛▌▛▘▛▘█▌
@@ -58,4 +80,4 @@ options:
   -V, --verbose  Verbose
   --sleep SLEEP  Tiempo de espera en milisegundos entre lotes
   --gui          Lanzar modo gráfico
-
+```
